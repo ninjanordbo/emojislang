@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whats that slang?</title>
+    <script src="https://kit.fontawesome.com/24b4c2fd6d.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/css menu.css">
+
+    <script type="text/javascript" src="js/main.js" defer ></script>
+</head>
+<body>
+    <nav class="menu-icon-wrapper">
+        <div class="menu-icon" onclick="toggleCssMenu(this)">
+            <div class="three-line">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    <div id="cssmenu">
+        <ul>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">App</a></li>
+            <li><a href="#">App</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+    </div>
+    <section id="header">
+        <h1>Slang Emoji</h1>
+    </section>
+    <main>
+        <div class="wrapper">
+            <div class="container">
+            <p id="quote">😤 🤧 😷</p>
+            <h3 id="meaning">Being angry or disgusted with something or someone.
+            </h3>
+            <button id="btn">Next</button>
+            </div>
+        </div>
+        <section>
+            <div class="submitNew">
+                <form action="/slang" method="POST">
+                    <input id="textArea" type="text" placeholder="Emoji" name="emoji">
+                    <input id="textArea" type="text" placeholder="Meaning" name="meaning">
+                <div class="submitNew">
+                    <button id="buttenStyle" type="submit">LEGG TIL</button>
+                </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+      
+        <div class="socialLinks">
+                <div class="evenSpacingIcons">
+                    <li><a href="https://www.linkedin.com/in/ninanordbo/" alt="linkedin"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://twitter.com/ninjanordbo" alt="linkedin"><i class="fa-brands fa-twitter-square"></i></a></li>
+                    <li><a href="https://github.com/ninjanordbo" alt="linkedin"><i class="fa-brands fa-github-square"></i></a></li>
+                    <li><a href="mailto:n.nordbo@gmail.com" alt="mail"><i class="fa-solid fa-envelope-open"></i></a></li>
+                </div>
+                <div class="madeBy">
+                    <span>© Nina Nordbø 2022</span>
+                </div>
+        </div>
+       
+    </footer> 
+    </footer>
+
+</body>
+</html>
